@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQL", "GraphQL\GraphQL.csproj", "{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NOTES", "NOTES", "{D45A33BB-597B-4A24-93C4-5229ACDC6FF1}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Debug|x64.Build.0 = Debug|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Debug|x86.Build.0 = Debug|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Release|x64.ActiveCfg = Release|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Release|x64.Build.0 = Release|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Release|x86.ActiveCfg = Release|Any CPU
+		{6EC8CC0F-09F5-4D63-8EEC-57C5E7686BFE}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75067F5B-D6F9-4044-95DC-FC695CDE7EA6}
+	EndGlobalSection
+EndGlobal
