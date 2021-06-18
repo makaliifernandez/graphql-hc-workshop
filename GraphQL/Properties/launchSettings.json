@@ -14,6 +14,7 @@
       "launchBrowser": true,
       "hotReloadProfile": "aspnetcore",
       "applicationUrl": "https://localhost:1001;http://localhost:1000",
+      "launchUrl": "https://localhost:1001/graphql/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -4,6 +4,12 @@ I'm following the official ChilliCream graphql workshop, to learn more about hot
 
 https://github.com/ChilliCream/graphql-workshop
 
+...
+
+[GraphQL Concepts and Terms Notes](./GraphQLConceptsAndTermsNotes.md)
+
+...
+
 [SESSION 1 NOTES](https://github.com/ChilliCream/graphql-workshop/blob/master/docs/1-creating-a-graphql-server-project.md):
 
 - Created a new Net core 5 web project
@@ -32,4 +38,5 @@ https://github.com/ChilliCream/graphql-workshop
 
 [SESSION 4 NOTES](https://github.com/ChilliCream/graphql-workshop/blob/master/docs/4-schema-design.md)
 
-... In Progress ...
+- refactored dir structure to be scalable (see [Architecture Notes](./ArchitectureNotes.md))
+- enabled relay support to implement Global Object Identification implemented with the Node interface. 

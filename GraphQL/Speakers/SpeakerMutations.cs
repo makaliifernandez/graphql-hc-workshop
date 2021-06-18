@@ -1,8 +1,9 @@
 ﻿using System.Threading.Tasks;
 using ConferencePlanner.GraphQL.Data;
 using HotChocolate;
+using HotChocolate.Types;
 
-namespace ConferencePlanner.GraphQL
+namespace ConferencePlanner.GraphQL.Speakers
 {
     // For mutations we are using the relay mutation pattern which is commonly used in GraphQL.
     // A mutation consists of three components, the input, the payload and the mutation itself.
@@ -10,7 +11,8 @@ namespace ConferencePlanner.GraphQL
     // mutations are named as verbs, their inputs are the name with "Input" appended at the end,
     // and they return an object that is the name with "Payload" appended.
     // for our addSpeaker mutation, we create two types: AddSpeakerInput and AddSpeakerPayload.
-    public class Mutation
+    [ExtendObjectType(Name = "Mutation")]
+    public class SpeakerMutations
     {
         // By annotating UseApplicationDbContext we are essentially applying a Middleware to the field resolver pipeline.
         [UseApplicationDbContext]
