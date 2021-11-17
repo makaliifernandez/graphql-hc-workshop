@@ -1,6 +1,6 @@
-# Learning Hot Chocolate (C#) flavored GraphQL
+# Hot Chocolate (C#) flavored GraphQL
 
-I'm working through the official ChilliCream graphql workshop, to learn more about using hot chocolate to implement a GraphQL API.
+I'm working through the official ChilliCream graphql workshop.
 
 https://github.com/ChilliCream/graphql-workshop
 
